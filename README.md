@@ -10,8 +10,6 @@ Researched permutation and matrix calculations:
 https://www.geeksforgeeks.org/print-all-permutation-of-array-using-javascript/
 https://www.geeksforgeeks.org/transpose-a-two-dimensional-2d-array-in-javascript/
 
-Utilized available 
-
 Devise an algorithm to determine whether two given graphs are isomorphic or not.
 It takes two graphs as an argument and returns `true` or `false`, depending on
 whether the graphs are isomorphic or not. Your algorithm needs to handle both
