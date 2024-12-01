@@ -10,8 +10,6 @@ Researched permutation and matrix calculations:
 https://www.geeksforgeeks.org/print-all-permutation-of-array-using-javascript/
 https://www.geeksforgeeks.org/transpose-a-two-dimensional-2d-array-in-javascript/
 
-Used mathjs public documentation to get a better understanding of the tools I was using.
-
 Utilized available 
 
 Devise an algorithm to determine whether two given graphs are isomorphic or not.
