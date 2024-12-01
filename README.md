@@ -27,4 +27,4 @@ the function and run automatically when you commit through a GitHub action.
 I want to prefice this with that fact that spent approximately 6 hours on this as I unfortunately mistook the defenition for permutation matrix to be a permutation of all known matrices of size n. I later corrected this problem and have know made a (comparably) efficient algorithm. You won't see much of that work, as it was an over complication of the already present work, but to give you an example, I was attempting to bruteforce 2d arrays, which was incredebly inefficient.
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
-Worst case big $\Theta$ would be big $\Theta(n! * (n + n^2 + 2n^3))$ as in the worst case it performs a comparison (n) on a matrix that has been multiplied twice (2n^3) by a permutation matrix and its transpose (n^2)
+Worst case big $\Theta$ would be big $\Theta(n! * (n + n^2 + 2n^3))$ as in the worst case it performs a comparison (n) on a matrix that has been multiplied twice (2n^3) by a permutation matrix and its transpose (n^2) n! times (number of possible permutation matrices)
