@@ -6,7 +6,7 @@ function are_isomorphic(graph1, graph2){
     }
     n = graph1.length
     perms = generate_permutation_matrix(n)
-    for (let value of perms){
+    for (let value of perms){ //n! in worst case
         valueT = matrixTranspose(value)
         midpoint = matrixMultiply(value, graph2)
         finished = matrixMultiply(midpoint, valueT)
@@ -17,7 +17,7 @@ function are_isomorphic(graph1, graph2){
     return false;
 }
 
-function generate_permutation_matrix(n){ //complexity of n! in the worst case as it returns a generator for all possible permutation matrices
+function generate_permutation_matrix(n){ //complexity of n! in the worst case as it is based on permuteArray
     final = []
     for(let i = 0; i < n; i++){
         temp = new Array(n).fill(0)
@@ -74,14 +74,14 @@ function matrixMultiply(matrix1, matrix2){ //this assumes two square matrixes (a
 }
 
 
-
+/*
 testgraph1 = [[0, 1, 0], [1, 0, 1], [0, 1, 0]]
 
 testgraph2 = [[0, 1, 1], [1, 0, 0], [1, 0, 0]]
 
 
 console.log(are_isomorphic(testgraph1, testgraph2));
-/*
+
 a = generate_permutation_matrix(3)
 
 for (let value of a){
