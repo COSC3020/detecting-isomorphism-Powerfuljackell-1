@@ -6,6 +6,10 @@ Heaviliy based my algorithm on the theory presented in: https://www.youtube.com/
 
 https://stackoverflow.com/questions/49799475/generating-permutation-matrices-of-a-2-dimensional-array-in-python
 
+Researched permutation and matrix calculations:
+https://www.geeksforgeeks.org/print-all-permutation-of-array-using-javascript/
+https://www.geeksforgeeks.org/transpose-a-two-dimensional-2d-array-in-javascript/
+
 Used mathjs public documentation to get a better understanding of the tools I was using.
 
 Utilized available 
